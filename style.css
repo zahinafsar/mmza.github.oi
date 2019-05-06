@@ -1,5 +1,5 @@
 body {
-    background:url(https://d3ansictanv2wj.cloudfront.net/bot-day-background-700x600-ce7fb2df41cfbf6c827cf229da02882a.jpg) no-repeat center center fixed; 
+    background-image: linear-gradient(90deg, #0082ff, #bc00ff); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
