@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(90deg, #0082ff, #bc00ff); 
+    background-color:midnightblue;
+/*     background-image: linear-gradient(90deg, #0082ff, #bc00ff); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
