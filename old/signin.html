@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signin</title>
+<style>
+body{
+	background-color:black;
+}	
+div{
+	font-size: 80px;
+	color: white;
+	margin:80px;
+}
+</style>
+</head>
+<body>
+<div><h1>thanks for use me!!</h1></div>
+
+<script type="text/javascript">
+
+var database=[
+{
+	username:"zahin",
+	password:"1234"
+}
+];
+var userNamePrompt=prompt("what is your username--zahin");
+var passwordPrompt=prompt("what is your password--1234");
+
+function signin(user,pass){
+	if (user === database[0].username &&
+		pass === database[0].password) {
+		alert("thanks for login");
+		}else{
+		alert("wrong username and password");
+	}
+}
+signin(userNamePrompt,passwordPrompt);
+</script>
+</body>
+</html>
