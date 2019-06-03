@@ -1,10 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="icon" type="icon" href="logo.png">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -12,49 +17,63 @@
     <title>Zahin Afsar</title>
   </head>
   <body>
+    <div id="loader">
+        <img src="loader.gif" alt="Loading...">
+</div>
     <div id="nav">
-      <a href="index.html"> <img  src="https://img.icons8.com/bubbles/50/000000/home-page.png"></a>
-      <a href="me.html"> <img  src="https://img.icons8.com/bubbles/50/000000/user.png"></a>
-      <a href="skill.html"> <img  src="https://img.icons8.com/bubbles/50/000000/development-skill.png"></a>
-      <a href="pro.html"> <img  src="https://img.icons8.com/bubbles/50/000000/training.png"></a>
-      <a href="cont.html"> <img  src="https://img.icons8.com/bubbles/50/000000/contacts.png"></a>
+      <a href="index.html"> <img  src="https://img.icons8.com/bubbles/100/000000/home-page.png"></a>
+      <a href="me.html"> <img  src="https://img.icons8.com/bubbles/100/000000/user.png"></a>
+      <a href="skill.html"> <img  src="https://img.icons8.com/bubbles/100/000000/development-skill.png"></a>
+      <a href="pro.html"> <img  src="https://img.icons8.com/bubbles/100/000000/training.png"></a>
+      <a href="cont.html"> <img  src="https://img.icons8.com/bubbles/100/000000/contacts.png"></a>
     </div><br>
 
 
 
 
 
-    <div id="home">
+    <div id="home" class="typewriter">
       <img id="zahinimg" src="zahin.jpg">
       <h1 class="name" >Mahin Md. Zahin Afsar</h1><br>
       <h6 class="name">My name is zahin.This is my parsonal website and made by myself.<br>Still i am a student.My aim is to be an engineer.<br>I like software as well as electronics.You can get enough information about me from this site.</h6><br><br><br>
-
+</div>
 
 
 <center>
 <div id="SkillBox">
-<img src="https://img.icons8.com/clouds/500/000000/blueprint.png">
+<div data-aos="zoom-out-down"><img src="https://img.icons8.com/clouds/500/000000/blueprint.png"></div>
 <center><h1>All My Projects</h1></center>
 <center><h6 style="color: red;">Not Much Experianced</h6></center><hr><br>
 </div>
 </center>
-<div class="card-deck" id="pro">
-   <div style="border:none; " class="card">
+
+
+
+
+<div class="row card-deck" id="pro">
+
+<div class="card col-6" style="width: 18rem;" data-aos="flip-left">
+  <img class="card-img-top" src="pro1.jpg">
+  <div class="card-body">
+    <h5 class="card-title">Dania cience Club</h5>
+    <p class="card-text">Now i am working with a with this project.Thats was made for our College Science Club.In-fact i am the Front-End developer and graphics designer of this site.</p>
+    <a href="https://daniascienceclub.cf/" class="btn btn-primary">Visit Site</a>
   </div>
-  <div class="card">
-    <a  href="https://daniascienceclub.cf/""><img src="pro1.jpg"></a>
+</div>
+
+
+<div class="card col-6" style="width: 18rem;" data-aos="flip-left">
+  <img class="card-img-top" src="pro2.jpg">
+  <div class="card-body">
+    <h5 class="card-title">Md. Rezaul Haque</h5>
+    <p class="card-text">That was my first website made for my father.I have used HTML,CSS,JS(simple).</p>
+    <a href="http://rezaul.cf/" class="btn btn-primary">Visit Site</a>
   </div>
-  <div class="card">
-    <a href="http://www.rezaul.cf/""><img src="pro2.jpg"></a>
-  </div>
-  <div class="card">
-    <a href="https://daniascienceclub.cf/"><img src="https://img.icons8.com/nolan/512/000000/document.png"></a>
-  </div>
-    <div class="card">
-    <a href="http://www.rezaul.cf/"><img src="https://img.icons8.com/nolan/512/000000/document.png"></a>
-  </div>
-   <div style="border:none; "  class="card">
-  </div>
+</div>
+</div>
+
+
+
 <footer class="footer-distributed" id="footer">
       <div class="footer-left">
         <h3>Zahin<span>Afsar</span></h3>
@@ -87,5 +106,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
+    <script type="text/javascript" src="style.js"></script>
   </body>
 </html>
