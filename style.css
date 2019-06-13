@@ -8,7 +8,26 @@
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
-
+#nav2{
+    position: fixed;
+    display: none;
+    margin: 30px;
+    z-index: 10000;
+}
+img#bt{
+    width: 60px;
+}
+li img{
+    width: 60px;
+}
+#nav2 ul li{
+    background-color: blue;
+    border-radius: 10px;
+    list-style: none;
+}
+.hide{
+    display: nones;
+}
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -136,7 +155,6 @@ width: 70%;
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
-    width: 100%;
     font: bold 16px sans-serif;
     text-align: left;
 
@@ -368,12 +386,9 @@ width: 70%;
 #SkillBox {
     font-size: 20px;
     font-family: 'Indie Flower', cursive;
-    width: 95%;
     height: auto;
-    margin: 40px auto;
     background-color: #fff;
     //border: 1px solid #cdcdcd;
-    padding: 10px;
     border-radius:20px;
     -o-border-radius:20px;
     -webkit-border-radius:20px;
@@ -383,7 +398,6 @@ width: 70%;
 #SkillBox img {
     width: 200px;
     height: 200px;
-    margin: auto 35%;
     padding: 10px;
 }
 .SkillBar {
@@ -669,4 +683,43 @@ to {
     color: #fff;
     //font-family: Lato-Regular, sans-serif;
     font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+    body{
+        margin: 20px;
+    }
+    footer{
+        margin: -20px;
+    }
+ /*#nav2{
+    display: block;
+  }
+  #nav{
+    display: none;
+  }*/
+  .typewriter h1 {
+  font-size: 23px;
+}
+#nav{
+    margin: -20px;
+}
+#nav img{
+    width: 40px;
+    margin-top:20px;
+    margin-left: 10px;
+}
+#all{
+    text-align: center;
+}
+#skillBox{
+    width: 100%;
+    font-size: 5px;
+}
+.Skill-Area,.PercentText{
+    font-size: 15px;
+}
+#SkillBox img {
+    width: 150px;
+    height: 150px;
+}
 }

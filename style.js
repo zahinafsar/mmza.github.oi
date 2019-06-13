@@ -7,3 +7,9 @@ window.addEventListener("load", function () {
         loader.className += " hidden";
     }
 });
+// function navbt(){
+// 	var a = document.getElementById('nev');
+// 	if (a.style.display == "none") {
+// 		a.style.display = "block";
+// 	}
+// }
