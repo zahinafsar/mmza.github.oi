@@ -21,14 +21,12 @@ function anim(){
  		for (var i = 0; i < nav.length; i++) {
  	    nav[i].style.width = '80px';
  	    bdy.classList.add("blr");
- 	    bdy.classList.add("flow");
 
  	}
  	}else{
  		for (var i = 0; i < nav.length; i++) {
  		nav[i].style.width = '0px'
  		bdy.classList.remove("blr");
- 		bdy.classList.remove("flow");
  	}
 
  	}
