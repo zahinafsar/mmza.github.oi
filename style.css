@@ -8,12 +8,6 @@
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
-#nav2{
-    position: fixed;
-    display: none;
-    margin: 30px;
-    z-index: 10000;
-}
 img#bt{
     width: 60px;
 }
@@ -684,6 +678,24 @@ to {
     //font-family: Lato-Regular, sans-serif;
     font-size: 18px;
 }
+#navmob{
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    bottom: 100px;
+    position: fixed;
+    top: 10px;
+    left:-20px;
+  }
+#navmob img{
+    width:50px;
+  }
+  .itm img{
+    width:50px;
+  }
+#navmob li{
+    list-style:none;
+}
 @media screen and (max-width: 600px) {
     body{
         margin: 20px;
@@ -691,22 +703,26 @@ to {
     footer{
         margin: -20px;
     }
- /*#nav2{
+  #navmob{
     display: block;
   }
   #nav{
     display: none;
-  }*/
+  }
   .typewriter h1 {
-  font-size: 23px;
+  font-size: 17px;
+  color: green;
+  font-weight: bold;
 }
 #nav{
     margin: -20px;
 }
-#nav img{
-    width: 40px;
-    margin-top:20px;
-    margin-left: 10px;
+.blr{
+    filter:blur(8px);
+}
+.flow{
+    overflow: hidden;
+    position: fixed;
 }
 #all{
     text-align: center;
@@ -722,4 +738,13 @@ to {
     width: 150px;
     height: 150px;
 }
+.itm{
+    transition: 1s;
+    float: right;
 }
+/*#navmob{
+    display: none;
+    position: fixed;
+    top: 10px;
+    left:-20px;
+}*/

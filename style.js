@@ -13,3 +13,24 @@ window.addEventListener("load", function () {
 // 		a.style.display = "block";
 // 	}
 // }
+var box = document.getElementById('navmain');
+var nav = document.getElementsByClassName('itm');
+var bdy = document.getElementById('body');
+function anim(){
+ 	if (nav[2].style.width == '0px') {
+ 		for (var i = 0; i < nav.length; i++) {
+ 	    nav[i].style.width = '80px';
+ 	    bdy.classList.add("blr");
+ 	    bdy.classList.add("flow");
+
+ 	}
+ 	}else{
+ 		for (var i = 0; i < nav.length; i++) {
+ 		nav[i].style.width = '0px'
+ 		bdy.classList.remove("blr");
+ 		bdy.classList.remove("flow");
+ 	}
+
+ 	}
+ 	
+ };
