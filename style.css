@@ -48,7 +48,7 @@ li img{
 }
 
 #loader > img {
-    width: 150px;
+    width: 180px;
 }
 
 #loader.hidden {
