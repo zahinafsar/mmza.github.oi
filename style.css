@@ -425,13 +425,13 @@ to {
 
 
 #Skill-RJ {
-    animation: Animate-after 4s;
+    animation: rj 4s;
     width: 80%;
     height: 50px;
     position: absolute;
     background-color: #c44e45;
 }
-@keyframes Animate-after {
+@keyframes rj {
     from {
     width: 10px;
 }
