@@ -424,6 +424,24 @@ to {
 
 
 
+#Skill-RJ {
+    width: 80%;
+    animation: Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+    height: 100%;
+    position: absolute;
+    background-color: #f8a51e;
+}
+@keyframes Animate-HTML {
+    from {
+    width: 10px;
+}
+to {
+    width: 80%}
+}
+
 
 
 
